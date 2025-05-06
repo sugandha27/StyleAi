@@ -184,4 +184,3 @@ Your image dataset on Google Drive should be organized as follows, under a root 
 
 ---
 
-*This README is a template. Feel free to update it with more specific details about your project's deployment, contribution guidelines, or licensing.*

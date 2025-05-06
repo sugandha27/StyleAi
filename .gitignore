@@ -1,3 +1,4 @@
 /fashion_embeddings_cache.pt
 .DS_Store
 .vscode/
+/__pycache__/*
