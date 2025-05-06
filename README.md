@@ -133,7 +133,7 @@ User/Client Application
 
 1.  **Start the Flask development server:**
     ```bash
-    python /Users/sugandhab/Downloads/backend/FashionRecommender.py
+    python FashionRecommender.py
     ```
 2.  **Initial Embedding Generation:** The first time you run the server (or if the cache is cleared/data changes significantly), it will download images from Google Drive and generate embeddings. This can take some time depending on the dataset size. Subsequent startups will be faster if a valid cache exists.
 
@@ -150,10 +150,7 @@ User/Client Application
 *   **`GET /recommend/similar-to-existing/<drive_file_id>`**:
     *   Get items similar to an existing item in the database (identified by its Google Drive File ID).
     *   **Response:** JSON list of similar items (with image URLs and scores).
-*   **`GET /gdrive_images/<file_id>`**:
-    *   Serves an image directly from Google Drive, proxied by the Flask app. Used internally to provide image URLs in API responses.
 
-*(More detailed API documentation, including example request/response bodies, can be added here or in a separate API documentation file/tool.)*
 
 ## Data Structure on Google Drive
 
